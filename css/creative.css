@@ -17,7 +17,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #3d0710f1
+  border-color:rgb(68,  65,  67)
 }
 
 hr.light {
@@ -25,14 +25,14 @@ hr.light {
 }
 
 a {
-  border-color: #3d0710f1
-  color: #3d0710f1
+  border-color:rgb(68,  65,  67)
+  color:rgb(68,  65,  67)
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #2c2c2e;
+  color:rgb(68,  65,  67);
 }
 
 h1,
@@ -45,15 +45,16 @@ h6 {
 }
 
 .bg-primary {
-  background-color: rgb(44, 44, 46) !important;
+  background-color: rgb(68, 65, 67) !important;
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color:rgb(68,  65,  67) !important;
 }
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+  font-family: Arial, Helvetica, sans-serif
 }
 
 section {
@@ -66,13 +67,13 @@ section {
 
 ::-moz-selection {
   color: #fff;
-  background: #3d0710f1
+  background:rgb(68,  65,  67)
   text-shadow: none;
 }
 
 ::selection {
   color: #fff;
-  background: #3d0710f1
+  background:rgb(68,  65,  67)
   text-shadow: none;
 }
 
@@ -102,12 +103,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #3d0710f1;
+  color:rgb(68,  65,  67);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #3d0710f1;
+  color:rgb(68,  65,  67);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -115,17 +116,17 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #3d0710f1;
+  color:rgb(68,  65,  67);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #3d0710f1;;
+  color:rgb(68,  65,  67);;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #3d0710f1 !important;
+  color:rgb(68,  65,  67) !important;
   background-color: transparent;
 }
 
@@ -161,25 +162,25 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #3d0710f1;
+    color:rgb(68,  65,  67);
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: rgba(44, 44, 46, 0.945);;
+    color: rgba(114, 26, 88, 0.945);;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #3d0710f1
+    color:rgb(68,  65,  67)
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: rgba(44, 44, 46, 0.945);;
+    color: rgba(114, 26, 88, 0.945);;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../IMG_1656.jpg");
+  background-image: url("../ether.png");
   background-position: center center;
   background-size: cover;
 }
@@ -241,7 +242,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(44, 44, 46, 0.9);
+  background: rgba(68, 65, 67, 0.9);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -289,7 +290,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: rgb(114, 26, 88) !important;
+  color: rgb(68, 65, 67) !important;
 }
 
 .btn {
@@ -305,19 +306,22 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: rgb(114, 26, 88)
-  border-color: F05F40;
+  background-color: rgb(68, 65, 67)
+  border-color: rgb(68, 65, 67);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: rgb(68, 65, 67) !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgb(68, 65, 67) !important;
+  box-shadow: 0 0 0 0.2rem rgb(68, 65, 67) !important;
 }
-.melancia {
-  color: #fdfbfc;
+.container1 {
+  background-color: black;
+}
+.bg-primary1{
+  background-color: black;
 }
